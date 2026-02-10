@@ -13,21 +13,21 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
-      "Are you sure?",
-      "What if I asked really nicely?",
-      "Pretty please",
-      "With a chocolate rice cake on top",
-      "What about a matcha frostie",
-      "PLEASE POOKIE",
-      "But :*(",
-      "I am going to die",
-      "Yep im dead",
-      "ok ur talking to nathan's ghost",
-      "please babe",
-      ":((((",
-      "PRETTY PLEASE",
-      "Estoy muerto",
-      "No :(",
+      "Amore coooosa",
+      "AMORE COOOOOOOOSA?",
+      "SI STAI SCHERZANDO LO SO, METTI SI",
+      "ANCORA CHE SEI QUI PUTTTTTT",
+      "MHMMMMMMM AMORE METTI SI",
+      "PUTTTTTTTTT!!!!!",
+      "JANNUUUU ME MARJANA IDDA NA KARO",
+      "AYE NI HAJE V ETTHE AAAAA",
+      "ME MARGHEA BSSSSS",
+      "MERE MARE TO V BAD ETTHE HI AAAA",
+      "PUTTTT HANJI KARDOOOOO",
+      "AWWWWWWW INNI ATTITUDE JI",
+      "CHLO LAST TRY PUTTTTTTT",
+      "OKOKOKOKK LAST LAST",
+      "HUN TA KARDOOOOOO!",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -38,7 +38,7 @@ export default function Page() {
       {yesPressed ? (
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you pookie!! ;))</div>
+          <div className="my-4 text-4xl font-bold">AMORE STRONZO FINALMENTE EHHHHH, TIMAOOOO, IL NOSTRO PRIMO SAN VALENTINO DA VALENTINIIII, se così si può dire AHAHAHHAHAHAHAH, TIAMOOOOOO💞</div>
         </>
       ) : (
         <>
@@ -46,7 +46,7 @@ export default function Page() {
             className="h-[200px]"
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
-          <h1 className="my-4 text-4xl">Will you be my Valentine?</h1>
+          <h1 className="my-4 text-4xl">Sukhraj will u be my Valentine?</h1>
           <div className="flex items-center">
             <button
               className={`mr-4 rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700`}
